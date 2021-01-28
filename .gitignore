@@ -1,0 +1,16 @@
+### DotnetCore ###
+
+liriksi.Model/bin/
+liriksi.Model/obj/
+liriksi.WebAPI/bin/
+liriksi.WebAPI/obj/
+liriksi.WinUI/bin/
+liriksi.WinUI/obj/
+lirksi.Mobile/lirksi.Mobile.Android/obj/
+lirksi.Mobile/lirksi.Mobile.UWP/bin/
+lirksi.Mobile/lirksi.Mobile.UWP/obj/
+lirksi.Mobile/lirksi.Mobile.iOS/obj/
+lirksi.Mobile/lirksi.Mobile/bin/
+lirksi.Mobile/lirksi.Mobile/obj/
+packages/
+.vs/
