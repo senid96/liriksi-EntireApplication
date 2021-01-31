@@ -124,6 +124,7 @@
             this.Id.HeaderText = "Id";
             this.Id.MinimumWidth = 6;
             this.Id.Name = "Id";
+            this.Id.ReadOnly = true;
             this.Id.Visible = false;
             this.Id.Width = 125;
             // 
@@ -134,6 +135,7 @@
             this.Title.HeaderText = "Name";
             this.Title.MinimumWidth = 6;
             this.Title.Name = "Title";
+            this.Title.ReadOnly = true;
             // 
             // Surname
             // 
@@ -142,6 +144,7 @@
             this.Surname.HeaderText = "Surname";
             this.Surname.MinimumWidth = 6;
             this.Surname.Name = "Surname";
+            this.Surname.ReadOnly = true;
             // 
             // ArtisticName
             // 
@@ -150,6 +153,7 @@
             this.ArtisticName.HeaderText = "ArtisticName";
             this.ArtisticName.MinimumWidth = 6;
             this.ArtisticName.Name = "ArtisticName";
+            this.ArtisticName.ReadOnly = true;
             // 
             // Image
             // 
@@ -159,6 +163,7 @@
             this.Image.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Image.MinimumWidth = 6;
             this.Image.Name = "Image";
+            this.Image.ReadOnly = true;
             // 
             // frmPerformer
             // 

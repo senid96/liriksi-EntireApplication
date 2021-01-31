@@ -68,6 +68,8 @@
             this.Id.HeaderText = "Id";
             this.Id.MinimumWidth = 6;
             this.Id.Name = "Id";
+            this.Id.ReadOnly = true;
+            this.Id.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.Id.Visible = false;
             this.Id.Width = 125;
             // 
@@ -77,6 +79,8 @@
             this.Title.HeaderText = "Title";
             this.Title.MinimumWidth = 6;
             this.Title.Name = "Title";
+            this.Title.ReadOnly = true;
+            this.Title.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.Title.Width = 125;
             // 
             // AvgRate
@@ -85,6 +89,8 @@
             this.AvgRate.HeaderText = "AvgRate";
             this.AvgRate.MinimumWidth = 6;
             this.AvgRate.Name = "AvgRate";
+            this.AvgRate.ReadOnly = true;
+            this.AvgRate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.AvgRate.Width = 506;
             // 
             // frmAlbumRating

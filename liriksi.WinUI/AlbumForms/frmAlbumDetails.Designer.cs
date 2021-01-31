@@ -38,9 +38,9 @@
             this.txtPerformer = new System.Windows.Forms.TextBox();
             this.txtGenre = new System.Windows.Forms.TextBox();
             this.dgvAlbumSongs = new System.Windows.Forms.DataGridView();
+            this.lblSongs = new System.Windows.Forms.Label();
             this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Text = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lblSongs = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picboxAlbum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlbumSongs)).BeginInit();
             this.SuspendLayout();
@@ -135,22 +135,6 @@
             this.dgvAlbumSongs.Size = new System.Drawing.Size(551, 165);
             this.dgvAlbumSongs.TabIndex = 70;
             // 
-            // Title
-            // 
-            this.Title.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Title.DataPropertyName = "Title";
-            this.Title.HeaderText = "Title";
-            this.Title.MinimumWidth = 6;
-            this.Title.Name = "Title";
-            // 
-            // Text
-            // 
-            this.Text.DataPropertyName = "Text";
-            this.Text.HeaderText = "Text";
-            this.Text.MinimumWidth = 6;
-            this.Text.Name = "Text";
-            this.Text.Width = 125;
-            // 
             // lblSongs
             // 
             this.lblSongs.AutoSize = true;
@@ -159,6 +143,25 @@
             this.lblSongs.Size = new System.Drawing.Size(48, 17);
             this.lblSongs.TabIndex = 71;
             this.lblSongs.Text = "Songs";
+            // 
+            // Title
+            // 
+            this.Title.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Title.DataPropertyName = "Title";
+            this.Title.HeaderText = "Title";
+            this.Title.MinimumWidth = 6;
+            this.Title.Name = "Title";
+            this.Title.ReadOnly = true;
+            this.Title.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // Text
+            // 
+            this.Text.DataPropertyName = "Text";
+            this.Text.HeaderText = "Text";
+            this.Text.MinimumWidth = 6;
+            this.Text.Name = "Text";
+            this.Text.ReadOnly = true;
+            this.Text.Width = 125;
             // 
             // frmAlbumDetails
             // 

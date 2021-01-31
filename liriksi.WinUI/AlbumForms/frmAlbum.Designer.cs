@@ -115,6 +115,8 @@
             this.Id.HeaderText = "Id";
             this.Id.MinimumWidth = 6;
             this.Id.Name = "Id";
+            this.Id.ReadOnly = true;
+            this.Id.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.Id.Visible = false;
             this.Id.Width = 125;
             // 
@@ -124,6 +126,8 @@
             this.Title.HeaderText = "Title";
             this.Title.MinimumWidth = 6;
             this.Title.Name = "Title";
+            this.Title.ReadOnly = true;
+            this.Title.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.Title.Width = 420;
             // 
             // YearRelease
@@ -132,6 +136,8 @@
             this.YearRelease.HeaderText = "Year release";
             this.YearRelease.MinimumWidth = 6;
             this.YearRelease.Name = "YearRelease";
+            this.YearRelease.ReadOnly = true;
+            this.YearRelease.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.YearRelease.Width = 125;
             // 
             // Image

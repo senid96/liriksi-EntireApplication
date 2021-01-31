@@ -69,6 +69,7 @@
             this.SongTitle.HeaderText = "SongTitle";
             this.SongTitle.MinimumWidth = 6;
             this.SongTitle.Name = "SongTitle";
+            this.SongTitle.ReadOnly = true;
             // 
             // Username
             // 
@@ -76,6 +77,7 @@
             this.Username.HeaderText = "Username";
             this.Username.MinimumWidth = 6;
             this.Username.Name = "Username";
+            this.Username.ReadOnly = true;
             this.Username.Width = 125;
             // 
             // Comment
@@ -84,6 +86,7 @@
             this.Comment.HeaderText = "Comment";
             this.Comment.MinimumWidth = 6;
             this.Comment.Name = "Comment";
+            this.Comment.ReadOnly = true;
             this.Comment.Width = 125;
             // 
             // Rate
@@ -92,6 +95,7 @@
             this.Rate.HeaderText = "Rate";
             this.Rate.MinimumWidth = 6;
             this.Rate.Name = "Rate";
+            this.Rate.ReadOnly = true;
             this.Rate.Width = 125;
             // 
             // frmSongRatingDetails
